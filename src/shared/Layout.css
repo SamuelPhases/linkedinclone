@@ -1,0 +1,11 @@
+.layout-container  {
+    background-color: #f3f2ef;
+    padding-top: 4em;
+    width: 100%;
+}
+
+.layout-content {
+    width: 83%;
+    background-color: #027;
+    margin: auto;
+}

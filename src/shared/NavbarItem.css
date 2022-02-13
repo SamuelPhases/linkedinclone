@@ -1,0 +1,35 @@
+.navbarItem {
+    /* background-color: #928; */
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 0.3em;
+    color: #666;
+    transition: all 0.2s  ease;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    border-bottom: 1px solid transparent;
+}
+
+.navbarItem:focus,
+.navbarItem:hover,
+.navbarItem:active {
+    color: #191919;
+    border-bottom: 2px solid #191919;
+}
+
+.navbarItem:first-child {
+    color: #191919;
+    border-bottom: 2px solid #191919;
+}
+
+.navbarItem .MuiSvgIcon-root{
+    /* font-size: 1rem; */
+}
+
+
+.navbarItem h4{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}

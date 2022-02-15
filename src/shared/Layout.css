@@ -6,6 +6,9 @@
 
 .layout-content {
     width: 83%;
-    background-color: #027;
+    /* background-color: #027; */
     margin: auto;
+    display: flex;
+    justify-content:space-between;
+    gap: 1em;
 }

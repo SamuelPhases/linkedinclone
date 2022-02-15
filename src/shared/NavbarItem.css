@@ -15,9 +15,10 @@
 .navbarItem:hover,
 .navbarItem:active {
     color: #191919;
+}
+.navbarItem:active {
     border-bottom: 2px solid #191919;
 }
-
 .navbarItem:first-child {
     color: #191919;
     border-bottom: 2px solid #191919;

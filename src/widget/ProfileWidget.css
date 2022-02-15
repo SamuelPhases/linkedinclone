@@ -1,0 +1,24 @@
+.profileWidget {
+    background-color: #a09fff;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.profileWidget-info {
+    background-color: #02e;
+}
+
+.profileWidget-info__header {
+    background-color: #aaa;
+}
+
+.profileWidget-info__header-wallpaper  {
+    height: 150px;
+    background-color: #f00;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.

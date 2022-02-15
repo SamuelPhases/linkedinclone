@@ -1,0 +1,11 @@
+.side-widget {
+    flex:0.2;
+    background-color: #208;
+    border-radius:10px;
+}
+
+.feed-input__container {
+    background-color: #aaa;
+    flex:0.6;
+    border-radius:10px;
+}

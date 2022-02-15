@@ -1,11 +1,11 @@
 .navbar {
-    background-color: #adf000;
+    background-color: #fff;
     display: flex;
     align-items: center;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #efefef;
-    box-shadow: -1px 2px 5px #eee;
+    /* border-bottom: 1px solid #efefef; */
+    box-shadow: -1px 2px 5px #fff;
     margin-bottom: 5em;
     /* height: 20vh; */
 }
@@ -86,6 +86,16 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.1em;
+    position: relative;
+}
+
+.navbar-border::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 120%;
+    left: 110%;
+    background-color: #ccc;
 }
 
 .navbar-links__item-dp{

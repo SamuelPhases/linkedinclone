@@ -30,7 +30,7 @@ function Navbar() {
                     <NavbarItem name="jobs" Icon={BusinessCenterRoundedIcon} />
                     <NavbarItem name="messaging" Icon={ModeCommentRoundedIcon} />
                     <NavbarItem name="notifications" Icon={NotificationsRoundedIcon} />
-                    <div className='navbar-links__item'>
+                    <div className='navbar-links__item navbar-border'>
                         <div className='navbar-links__item-dp'></div>
                         <div className='navbar-links__item-btn'>
                             <h5>me</h5>

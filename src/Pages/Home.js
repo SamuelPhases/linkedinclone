@@ -27,7 +27,7 @@ function Home() {
                     <Post/>
                 </div>
             </div>
-            <aside className='side-widget'>
+            <aside className='side-widget__wide'>
                 <FeedWidget />
             </aside>
         </Layout>

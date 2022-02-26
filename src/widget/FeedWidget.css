@@ -1,0 +1,70 @@
+.feedWidget {
+    background-color: #487;
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+.feedWidget-header {
+    /* background-color: #928; */
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em;
+    padding-bottom: 1em;
+}
+
+.feedWidget-header  h3 {
+    font-weight: 500;
+    color: #121212;
+    font-size: 1rem;
+}
+
+.feedWidget-header  div  {
+    /* width: 2rem;
+    height: 2rem; */
+    /* background-color: #927ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.feedWidget-header  div .MuiSvgIcon-root {
+    font-size: 1rem;
+    color: #606060;
+}
+
+.feedWidget-body {
+    /* background-color: #028; */
+}
+
+
+.feedWidget-footer  {
+    /* background-color: #028; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    cursor: pointer;
+    color: #606060;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    transition: all 0.2s ease;
+}
+
+.feedWidget-footer:hover  {
+    background-color: #eee;
+}
+
+
+.feedWidget-footer h5 {
+    font-weight: 500;
+}
+
+
+.feedWidget-footer  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #287; */
+}

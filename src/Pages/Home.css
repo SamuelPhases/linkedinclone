@@ -11,12 +11,34 @@
     /* overflow-y:auto; */
 }
 
-.side-widget  > div {
+
+.side-widget__wide  > div {
     border: 1px solid   #ccc;;
 }
 
+
+
+.side-widget__wide {
+    /* position: sticky; */
+    flex:0.3;
+    /* width: 500px; */
+    background-color: #208;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+    /* height: 500px; */
+    /* overflow-y:auto; */
+}
+
+
+
 .feed-input__container {
     background-color: #aaa;
-    flex:0.6;
+    flex:0.5;
     border-radius:10px;
+}
+
+.feed-container {
+    background-color: #287ccc;
 }

@@ -1,0 +1,99 @@
+.inputWidget  {
+    background-color: #028;
+    border-radius: 8px;
+    width: 100%;
+}  
+
+.inputWidget-container {
+    width: 95%;
+    background-color: #28cccc;
+    margin: auto;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.inputWidget-container__row {
+    background-color: #927;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.inputWidget-dp {
+    width: 3rem;
+    height: 3rem;
+    background-color: #277;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.inputWidget-inputBox  {
+    flex: 1;
+    padding: 0.9em;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    /* background-color: #028; */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+.inputWidget-inputBox  h4 {
+    color: #606060;
+    font-weight: 500;
+}
+
+.inputWidget-inputBox:hover {
+    background-color: #eee;
+}
+
+.inputWidget-container__row > button:hover {
+    background-color: #eee;
+}
+
+.inputWidget-container__row > button {
+    padding: 0.7em 1em;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.2s ease;
+    color: #606060;
+    gap: 1em;
+}
+
+.inputWidget-container__row > button h4 {
+    /* font-weight: 500; */
+}
+
+
+.inputWidget-container__row >  button:nth-child(1) div {
+    color: #70B5F9;
+}
+
+
+.inputWidget-container__row >  button:nth-child(2) div {
+    color: #7FC15e;
+}
+
+
+.inputWidget-container__row >  button:nth-child(3) div {
+    color: #E7A33e;
+}
+
+
+.inputWidget-container__row >  button:nth-child(4) div {
+    color: #FC9295;
+}
+
+
+
+
+

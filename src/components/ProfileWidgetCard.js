@@ -1,4 +1,7 @@
 import React from 'react'
+
+import AddRoundedIcon from '@material-ui/icons/AddRounded';
+
 import './ProfileWidgetCard.css'
 
 function ProfileWidgetCard() {
@@ -11,7 +14,8 @@ function ProfileWidgetCard() {
             <h4>Abraham Jacob</h4>
             <h5>Chief Financial Officer</h5>
             <button>
-                <p>follow</p>
+              <AddRoundedIcon/>
+              <h4>follow</h4>
             </button>
         </div>
     </div>

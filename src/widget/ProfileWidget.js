@@ -9,7 +9,9 @@ function ProfileWidget() {
         <div className='profileWidget-info__header'>
           <div className='profileWidget-info__header-wallpaper'>
             <div className='profileWidget-info__bg'></div>
-            <div className='profileWidget-info__dp'></div>
+            <div className='profileWidget-info__dp'>
+              <div className='profileWidget-info__dpImg'></div>
+            </div>
           </div>
         </div>
         <div className='profileWidget-info__body'>

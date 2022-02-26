@@ -14,9 +14,9 @@ function RecentWidget() {
                     <div></div>
                 </div>
                 <ul>
-                    <li>sales</li>
-                    <li>design</li>
-                    <li>development</li>
+                    <li> <h3>#</h3> sales</li>
+                    <li> <h3>#</h3> design</li>
+                    <li> <h3>#</h3> development</li>
                 </ul>
             </li>
             <li>
@@ -25,9 +25,9 @@ function RecentWidget() {
                     <div></div>
                 </div>
                 <ul>
-                    <li>sales</li>
-                    <li>design</li>
-                    <li>development</li>
+                    <li> <h3>#</h3> sales</li>
+                    <li> <h3>#</h3> design</li>
+                    <li> <h3>#</h3> development</li>
                 </ul>
             </li>
             <li>
@@ -36,9 +36,9 @@ function RecentWidget() {
                     <div></div>
                 </div>
                 <ul>
-                    <li>sales</li>
-                    <li>design</li>
-                    <li>development</li>
+                    <li> <h3>#</h3> sales</li>
+                    <li> <h3>#</h3> design</li>
+                    <li> <h3>#</h3> development</li>
                 </ul>
             </li>
             <li>
@@ -47,9 +47,9 @@ function RecentWidget() {
                     <div></div>
                 </div>
                 <ul>
-                    <li>sales</li>
-                    <li>design</li>
-                    <li>development</li>
+                    <li> <h3>#</h3> sales</li>
+                    <li> <h3>#</h3> design</li>
+                    <li> <h3>#</h3> development</li>
                 </ul>
             </li>
         </ul>

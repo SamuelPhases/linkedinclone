@@ -1,7 +1,18 @@
 .side-widget {
+    /* position: sticky; */
     flex:0.2;
+    /* width: 500px; */
     background-color: #208;
     border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+    /* height: 500px; */
+    /* overflow-y:auto; */
+}
+
+.side-widget  > div {
+    border: 1px solid   #ccc;;
 }
 
 .feed-input__container {

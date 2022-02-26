@@ -1,11 +1,15 @@
 .profileWidget {
-    background-color: #a09fff;
-    height: 350px;
+    background-color: #fff;
+    /* height: 350px; */
     border-radius: 8px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .profileWidget-info {
-    background-color: #02e;
+    /* background-color: #02e; */
 }
 
 .profileWidget-info__header {
@@ -13,12 +17,161 @@
 }
 
 .profileWidget-info__header-wallpaper  {
-    height: 150px;
-    background-color: #f00;
+    height: 120px;
+    background-color: #fff;
     position: relative;
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
 }
 
-.
+
+.profileWidget-info__bg {
+    position: absolute;
+    inset: 0;
+    height: 50%;
+    /* width: 100%; */
+    /* height: 40px; */
+    background-color: #a0b4b7;
+}
+
+.profileWidget-info__dp {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    /* background-color: #288; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileWidget-info__dpImg  {
+    border: 2px solid #fff;
+    width: 4rem;
+    height: 4rem;
+    background-color: #209;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.profileWidget-info__body   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 0em  0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.profileWidget-info__body  h3:hover  {
+    text-decoration: underline;
+}
+
+.profileWidget-info__body  h3   {
+    font-weight: 500;
+    cursor: pointer ;
+    transition: all 0.2s ease;
+}
+
+.profileWidget-info__body   h6  {
+    font-weight: 400;
+    padding: 0.5em 0em;
+    color: #606060;
+    /* font-size: 0.9rem; */
+}
+
+
+.profileWidget-view > div {
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.3em 0.5em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.profileWidget-view > div:hover {
+    background-color: #eee;
+}
+
+
+.profileWidget-view div p {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.profileWidget-view {
+    border-bottom: 1px solid #ccc;
+    padding:  0.5em 0em;
+}
+
+.profileWidget-view div p:nth-child(1) {
+    color: #606060;
+}
+
+.profileWidget-view div p:nth-child(2) {
+    color: #1a73e9;
+}
+
+.profileWidget-exclusive:hover  {
+    background-color: #eee;
+}
+
+.profileWidget-exclusive   {
+    cursor: pointer;
+    padding: 0.5em;
+    border-bottom: 1px solid  #ccc;
+    transition: all 0.2s ease;
+}
+
+.profileWidget-exclusive  h6 {
+    color:#606060;
+    font-weight: 500;
+}
+
+.profileWidget-exclusive > div {
+    padding: 0.3em  0em;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.profileWidget-exclusive__icon  {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5px;
+    background-color: #ffdd00;
+}
+
+.profileWidget-exclusive h5 {
+    flex: 1;
+    text-transform: capitalize;
+    /* background-color: #498aaa; */
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #ffd700;
+}
+
+
+.profileWidget-items  {
+    padding:  0.8em 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.profileWidget-items:hover  {
+    background-color: #eee;
+}
+
+.profileWidget-items  h5   {
+    font-weight: 500;
+}

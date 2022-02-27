@@ -2,7 +2,7 @@
     /* position: sticky; */
     flex:0.2;
     /* width: 500px; */
-    background-color: #208;
+    /* background-color: #208; */
     border-radius:10px;
     display:flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     /* position: sticky; */
     flex:0.3;
     /* width: 500px; */
-    background-color: #208;
+    /* background-color: #208; */
     border-radius:10px;
     display:flex;
     flex-direction: column;
@@ -34,11 +34,12 @@
 
 
 .feed-input__container {
-    background-color: #aaa;
+    /* background-color: #aaa; */
     flex:0.5;
     border-radius:10px;
 }
 
 .feed-container {
-    background-color: #287ccc;
+    /* background-color: #287ccc; */
+    margin-top: 2em;
 }

@@ -1,12 +1,13 @@
 .inputWidget  {
-    background-color: #028;
+    background-color: #fff;
+    border: 1px solid #ccc;
     border-radius: 8px;
     width: 100%;
 }  
 
 .inputWidget-container {
     width: 95%;
-    background-color: #28cccc;
+    /* background-color: #28cccc; */
     margin: auto;
     padding: 0.5em;
     display: flex;
@@ -15,7 +16,7 @@
 }
 
 .inputWidget-container__row {
-    background-color: #927;
+    /* background-color: #927; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,9 +38,9 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
-    /* background-color: #028; */
+    background-color: #eee;
     border: 1px solid #ccc;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: all 0.2s ease;
 }
 

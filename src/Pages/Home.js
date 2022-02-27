@@ -7,6 +7,7 @@ import  Post from '../components/Post'
 
 import Layout from '../shared/Layout';
 import './Home.css'
+import PromotedWidgetCard from '../components/PromotedWidgetCard';
 
 
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
             </div>
             <aside className='side-widget__wide'>
                 <FeedWidget />
+                <PromotedWidgetCard/>
             </aside>
         </Layout>
     )

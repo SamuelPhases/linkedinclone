@@ -7,8 +7,8 @@
 .layout-content {
     width: 83%;
     /* background-color: #027; */
-    margin: auto;
+    margin: 1em auto;
     display: flex;
     justify-content:space-between;
-    gap: 1em;
+    gap: 1.1em;
 }

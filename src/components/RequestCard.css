@@ -1,0 +1,93 @@
+.requestCard {
+    background-color: #929;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    justify-content: space-between;
+    padding: 1em
+}
+
+.requestCard-info {
+    background-color: #209eee;
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.requestCard-req {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.requestCard-req  button {
+    padding: 0.6em  1.3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    background-color: transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.requestCard-req  button:nth-child(1):hover {
+    background-color: #eee;
+}
+
+.requestCard-req  button:nth-child(2):hover {
+    background-color: #209eee;
+}
+
+.requestCard-req  button:nth-child(1) {
+    border-radius: 5px;
+    border: none;
+    color: #606060;
+}
+
+
+.requestCard-req  button:nth-child(2) {
+    border-radius: 30px;
+    border: 1px solid #1a3ee8;
+    color: #1a3ee8;
+}
+
+
+
+.requestCard-info__dp {
+    width: 4rem;
+    height: 4rem;
+    background-color: #29eeee;
+    border-radius: 50%;
+}
+
+.requestCard-info__name {
+    background-color: #e11fff;
+}
+
+.requestCard-news  {
+    display: flex;
+    align-items: center;
+    gap: 0.3eM;
+    color: #606060;
+}
+
+.requestCard-news h4 {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.requestCard-news > .MuiSvgIcon-root {
+    font-size: 0.4rem;
+}
+
+.requestCard-info__name h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #606060;
+}
+.requestCard-info__name h3 strong {
+    color: #121;
+    font-weight: 500;
+}

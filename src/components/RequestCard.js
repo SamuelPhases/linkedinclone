@@ -1,8 +1,12 @@
 import React from 'react'
+
+
+import FiberManualRecordRoundedIcon from '@material-ui/icons/FiberManualRecordRounded';
+
 import './RequestCard.css'
 
 
-function RequestCard() {
+function RequestCard({invite}) {
   return (
     <div className='requestCard'>
         <div className='requestCard-info'>
@@ -19,9 +23,10 @@ function RequestCard() {
                         <>
                         <div className='requestCard-news'>
                             <h4>Newsletter</h4>
+                            <FiberManualRecordRoundedIcon/>
                             <h4>Weekly</h4>
                         </div>
-                        <h3>Anthonia invited you to subscribe to TEDx</h3>
+                        <h3><strong>Anthonia</strong> invited you to subscribe to <strong>TEDx</strong></h3>
                         </>
                     )
                 }

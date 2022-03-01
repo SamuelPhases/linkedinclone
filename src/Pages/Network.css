@@ -1,0 +1,13 @@
+.network-nav {
+    /* background-color: #028; */
+    flex: 0.3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.network-content {
+    background-color: #aed;
+    flex: 0.7;
+    border-radius: 8px;
+    overflow: hidden;
+}

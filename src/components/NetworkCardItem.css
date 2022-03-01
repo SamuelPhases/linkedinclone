@@ -1,0 +1,30 @@
+.networkCardItem:hover {
+    background-color: #eee;
+}
+.networkCardItem {
+    transition: all 0.2s ease;
+    /* background-color: #299; */
+    /* margin-bottom: 1em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 1em;
+    gap: 1em;
+    cursor: pointer;
+    color: #b4b4b4;
+}
+
+.networkCardItem > div {
+    gap: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.networkCardItem > div > h4 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.networkCardItem > h4 {
+    font-weight: 400;
+}

@@ -1,0 +1,51 @@
+.invitationWidget {
+    background-color: #029;
+    border-radius: 8px;
+}
+
+.invitationWidget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ccc;
+    color: #606060;
+}
+
+.invitationWidget-header h4 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.invitationWidget-header button:hover {
+    background-color: #eee;
+}
+
+
+.invitationWidget-header button {
+    padding: 0.7em 1.2em;
+    transition: all 0.2s ease;
+    color: #606060;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.invitationWidget-btn:hover {
+    background-color: #d1deff;
+}
+.invitationWidget-btn {
+    width: 100%;
+    padding: 0.8em;
+    transition: all 0.2s ease;
+    color: #1a3e99;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    /* background-color: transparent; */
+    border: none;
+    cursor: pointer;
+}

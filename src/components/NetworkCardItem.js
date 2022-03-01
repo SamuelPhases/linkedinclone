@@ -4,13 +4,14 @@ import './NetworkCardItem.css'
 
 
 
-function NetworkCardItem() {
+function NetworkCardItem({Icon,name,number}) {
   return (
     <div className='networkCardItem'>
         <div>
-            <h4>Connections</h4>
+          {Icon ? <Icon/> : <h3>#</h3>}
+          <h4>{name}</h4>
         </div>
-        <h4>1,000</h4>
+        <h4>{number}</h4>
     </div>
   )
 }

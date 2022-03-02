@@ -11,3 +11,58 @@
     border-radius: 8px;
     overflow: hidden;
 }
+
+.network-content__bodyCard {
+    background-color: #fff;
+    padding: 1em ;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+ h4 {}
+.network-content__bodyCardHeader button {}
+
+.network-content__bodyCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ccc;
+    color: #606060;
+}
+
+.network-content__bodyCardHeader h4 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.network-content__bodyCardHeader button:hover {
+    background-color: #eee;
+}
+
+
+.network-content__bodyCardHeader button {
+    padding: 0.6em 1.2em;
+    transition: all 0.2s ease;
+    color: #606060;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.network-content__bodyCardHeader button:hover {
+    background-color: #e9effc;
+}
+
+
+.network-content__bodyCardGrid {
+    /* background-color: #019; */
+    margin-top: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 0.5em;
+}
+

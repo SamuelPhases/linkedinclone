@@ -1,4 +1,7 @@
 import React from 'react'
+
+import LinkIcon from '@material-ui/icons/Link';
+
 import './ConnectCard.css'
 
 function ConnectCard() {
@@ -9,16 +12,17 @@ function ConnectCard() {
             <div className='connectCard-header__dp'></div>
         </div>
         <h3>Isaac Elijah</h3>
-        <h4>Lead Project Manager | PERN | MERN Software</h4>
+        <h4>Lead Project Manager | PERN | MERN Software | MERNG Software</h4>
         <div className='connectCard-info'>
             <div>
+                <LinkIcon/>
                 <p>18 mutual connections</p>
             </div>
-            <div>
+            {/* <div>
                 <p>Caltech Princeton</p>
-            </div>
+            </div> */}
+            <button>connect</button>
         </div>
-        <button>connect</button>
     </div>
   )
 }

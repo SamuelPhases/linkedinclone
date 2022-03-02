@@ -1,5 +1,5 @@
 .invitationWidget {
-    background-color: #029;
+    background-color: #fff;
     border-radius: 8px;
 }
 
@@ -26,8 +26,8 @@
     padding: 0.7em 1.2em;
     transition: all 0.2s ease;
     color: #606060;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 500;
     border-radius: 3px;
     background-color: transparent;
     border: none;
@@ -35,17 +35,18 @@
 }
 
 .invitationWidget-btn:hover {
-    background-color: #d1deff;
+    background-color: #e9effc;
 }
 .invitationWidget-btn {
     width: 100%;
-    padding: 0.8em;
+    padding: 1em 1.3em;
     transition: all 0.2s ease;
-    color: #1a3e99;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 3px;
-    /* background-color: transparent; */
+    color: #0a66c2;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }

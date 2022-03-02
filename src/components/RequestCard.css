@@ -1,6 +1,6 @@
 .requestCard {
-    background-color: #929;
-    margin-bottom: 1em;
+    /* background-color: #929; */
+    /* margin-bottom: 1em; */
     border-bottom: 1px solid #ccc;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .requestCard-info {
-    background-color: #209eee;
+    /* background-color: #209eee; */
     display: flex;
     align-items: center;
     gap: 0.8em;
@@ -23,8 +23,8 @@
 }
 
 .requestCard-req  button {
-    padding: 0.6em  1.3em;
-    font-weight: 600;
+    padding: 0.5em  1.3em;
+    font-weight: 500;
     text-transform: capitalize;
     font-size: 0.9rem;
     background-color: transparent;
@@ -37,7 +37,7 @@
 }
 
 .requestCard-req  button:nth-child(2):hover {
-    background-color: #209eee;
+    background-color: #c0ddfa;
 }
 
 .requestCard-req  button:nth-child(1) {
@@ -49,8 +49,8 @@
 
 .requestCard-req  button:nth-child(2) {
     border-radius: 30px;
-    border: 1px solid #1a3ee8;
-    color: #1a3ee8;
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
 }
 
 
@@ -60,10 +60,11 @@
     height: 4rem;
     background-color: #29eeee;
     border-radius: 50%;
+    cursor:pointer;
 }
 
 .requestCard-info__name {
-    background-color: #e11fff;
+    /* background-color: #e11fff; */
 }
 
 .requestCard-news  {

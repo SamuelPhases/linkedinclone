@@ -1,12 +1,12 @@
 .connectCard:hover {
-    box-shadow: 1px 3px 5px #121;
+    box-shadow: 1px 3px 5px #ccc;
 }
 
 .connectCard {
     transition:all 0.2s ease;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    height: 290px;
+    height: 300px;
     text-align: center;
     display: flex;
     align-items: center;

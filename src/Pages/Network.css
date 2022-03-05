@@ -19,7 +19,7 @@
     margin-top: 2em;
 }
 
- h4 {}
+
 .network-content__bodyCardHeader button {}
 
 .network-content__bodyCardHeader {
@@ -62,7 +62,7 @@
     /* background-color: #019; */
     margin-top: 0.5em;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(170px,1fr));
     gap: 0.5em;
 }
 

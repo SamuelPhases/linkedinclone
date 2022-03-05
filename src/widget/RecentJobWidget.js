@@ -14,7 +14,7 @@ function RecentJobWidget() {
         <div className='recentJobWidget-body'>
             <RecentJobCard/>
             <RecentJobCard/>
-            <RecentJobCard/>
+            {/* <RecentJobCard/> */}
         </div>
     </div>
   )

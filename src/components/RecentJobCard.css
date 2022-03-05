@@ -1,0 +1,35 @@
+.recentJobCard:active,
+.recentJobCard:focus,
+.recentJobCard:hover {
+    background-color: #eee;
+}
+
+.recentJobCard {
+    background-color: transparent;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:  0.8em 0em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.recentJobCard >  h5 {
+    font-weight:bold;
+    font-size: 0.8rem;
+    text-transform: lowercase;
+}
+
+.recentJobCard >  h5 span {
+    color: #389269;
+}
+
+
+.recentJobCard >  h6 {
+    padding: 0.3em  0em;
+    font-weight:500;
+    font-size: 0.7rem;
+    color: #aaa;
+}

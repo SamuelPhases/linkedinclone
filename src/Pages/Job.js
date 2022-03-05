@@ -3,6 +3,9 @@ import React from 'react';
 import Layout from '../shared/Layout';
 import JobNav from '../components/JobNav';
 import './Job.css';
+import JobSeekerWidget from '../widget/JobSeekerWidget';
+import JobWidget from '../widget/JobWidget';
+import RecentJobWidget from '../widget/RecentJobWidget';
 
 
 
@@ -14,12 +17,15 @@ function Job() {
       </aside>
       <div className='job-container'>
         <div className='job-containerRecent'>
-          <div className='job-containerRecent__header'>
-            <h4></h4>
-          </div>
+          <RecentJobWidget/>
         </div>
-        <div className='job-container'></div>
+        <div className='job-containerCards'>
+          <JobWidget/>
+        </div>
       </div>
+      <aside className='job-seeker'>
+        <JobSeekerWidget/>
+      </aside>
     </Layout>
   )
 }

@@ -1,0 +1,38 @@
+.jobNav-items  {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction:column;
+    gap: 0.5em;
+    padding: 1em  0em;
+    border: 1px solid #ccc;
+}
+
+.jobNav {
+    display: flex;
+    flex-direction:column;
+    gap: 1em;
+}
+
+.jobNav > button:active,
+.jobNav > button:focus,
+.jobNav > button:hover {
+    background-color: #cde5fd;
+}
+
+.jobNav > button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    color: #0a66c2;
+    padding: 0.8em  1.5em;
+    border-radius: 30px;
+    border: 1px solid #0a66c2;
+    transition: all 0.2s ease;
+}
+
+.jobNav > button h5 {
+    font-size: 0.8rem;
+}

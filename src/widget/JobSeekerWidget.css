@@ -1,0 +1,72 @@
+.jobSeekerWidget {
+    /* background-color: #028166; */
+}
+
+
+.jobSeekerWidget  h3 {
+    font-weight: 500;
+    padding:  0.5em;
+    padding-bottom: 0em;
+}
+
+.jobSeekerWidget h4 {
+    padding: 0em 0.5em;
+    padding-bottom: 0.5em;
+    font-weight:400;
+    color: #606060;
+    font-size: 0.8rem;
+}
+
+.jobSeekerWidget-ad {
+    height: 80px;
+    background-color: #f9fafb;
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    margin: 0.5em 0em;
+}
+
+.jobSeekerWidget-ad h5 {
+    flex: 0.55;
+    font-weight:500;
+}
+
+.jobSeekerWidget-ad > div {
+    flex: 0.4;
+    background-color: rgb(161, 181, 253);
+    height: 60px;
+    border-radius: 8px;
+}
+
+.jobSeekerWidget-btn > button {
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0em;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    text-align: left;
+    display: flex;
+    gap: 0.8em;
+    padding: 0em;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    color: #606060;
+}
+
+.jobSeekerWidget-btn {
+    padding: 0.8em  0.5em;
+    width: 100%;
+}
+
+.jobSeekerWidget-btn > button:active,
+.jobSeekerWidget-btn > button:focus,
+.jobSeekerWidget-btn > button:hover {
+    color: #0a66c2;
+    text-decoration-color: #0a66c2;
+}

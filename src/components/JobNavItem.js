@@ -1,12 +1,14 @@
 import React from 'react'
+
 import './JobNavItem.css'
 
 
 
-function JobNavItem() {
+function JobNavItem({Icon,name}) {
   return (
     <div className='jobNavItem'>
-        <h4>my jobs</h4>
+      <Icon/>
+      <h4>{name}</h4>
     </div>
   )
 }

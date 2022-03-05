@@ -1,0 +1,37 @@
+.job-nav {
+    flex: 0.2;
+    /* background-color: #028fff; */
+    border-radius: 8px;
+}
+
+.job-container {
+    flex: 0.55;
+    /* background-color: #988ccc; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1eM;
+}
+
+.job-container  >   div {
+    /* background-color: #928; */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.job-containerRecent {
+    background-color: #fff;
+}
+
+.job-containerCards {
+    background-color: #fff;
+}
+
+
+.job-seeker {
+    flex: 0.25;
+    background-color: #fff;
+    border-radius: 8px;
+    height: fit-content;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,33 @@
+.jobWidget {
+    /* background-color: #028; */
+    padding: 0.5em  1em;
+}
+
+.jobWidget-header{
+    padding:  0.5em 0em;
+}
+
+.jobWidget-header  h3 {
+    font-weight: 500;
+}
+
+.jobWidget-header h4 {
+    font-weight:400;
+    color: #606060;
+    font-size: 0.8rem;
+}
+
+.jobWidget-body {
+    /* background-color: #02efff; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.jobWidget-body > div {
+    border-bottom: 1px solid #ccc;
+}
+
+.jobWidget-body > div:last-of-type {
+    border: none;
+}

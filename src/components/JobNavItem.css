@@ -1,0 +1,24 @@
+.jobNavItem:hover {
+    background-color: #eee;
+}
+
+.jobNavItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: #606060;
+    padding: 0.5em 1em;
+    /* background-color: #092; */
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.jobNavItem .MuiSvgIcon-root {
+    /* font-size: 1.2rem; */
+}
+
+.jobNavItem h4 {
+    text-transform:capitalize;
+    font-weight: 500;
+    font-size: 0.9rem;
+}

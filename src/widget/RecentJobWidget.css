@@ -1,0 +1,52 @@
+.recentJobWidget {
+    /* background-color: #028eee; */
+    padding: 0.5em 1em;
+}
+
+.recentJobWidget-header {
+    /* background-color: #02e111; */
+    padding: 0.5em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.recentJobWidget-header button {
+    color: #606060;
+    font-weight: 600;
+    padding:   0.5em 0.7em;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.recentJobWidget-header button:active,
+.recentJobWidget-header button:focus,
+.recentJobWidget-header button:hover {
+    background-color: #eee;
+}
+
+.recentJobWidget-header h3 {
+    font-weight: 500;
+}
+
+.recentJobWidget-body {
+    /* background-color: #928; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.recentJobWidget-body  >  button {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.recentJobWidget-body  >  button:last-child {
+    /* background-color: #028; */
+    border: none;
+}

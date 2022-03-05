@@ -1,0 +1,149 @@
+.dmWidget {
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.dmWidget-header {
+    /* background-color: #928; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0.5em 1em;
+    gap: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.dmWidget-header  h4 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.dmWidget-header__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.dmWidget-header__title-dp {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #029;
+    border-radius: 50%;
+}
+
+.dmWidget-header__icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.dmWidget-header__icons button:hover {
+    background-color: #eee;
+}
+
+
+.dmWidget-header__icons button {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: #606060;
+}
+
+.dmWidget-header__icons button .MuiSvgIcon-root {
+    font-size: 1.3rem;
+}
+
+
+.dmWidget-search {
+    /* background-color: #829eee; */
+    padding: 0.5em 1em;
+}
+
+.dmWidget-searchInput {
+    /* background-color: #928aaa; */
+    height: 35px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dmWidget-searchInput input:hover,
+.dmWidget-searchInput input:active,
+.dmWidget-searchInput input:focus {
+    border: 2px solid #121;
+}
+
+
+.dmWidget-searchInput input {
+    border-radius: 5px;
+    position: absolute;
+    inset: 0;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 0.5em  2.2em;
+    padding-right: 3em;
+    border: none;
+    border: 2px solid transparent;
+    background-color: #eef3f8;
+}
+
+.dmWidget-searchInput label .MuiSvgIcon-root {
+    font-size: 1.3rem;
+}
+
+.dmWidget-searchInput label {
+    position:absolute;
+    cursor: pointer;
+    top: 65%;
+    left: 2%;
+    transform: translateY(-65%);
+    z-index: 1;
+}
+
+.dmWidget-searchInput button:hover {
+    background-color: #ccc;
+}
+
+
+.dmWidget-searchInput button {
+    color: #606060;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-65%);
+    right: 1%;
+    z-index: 1;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.dmWidget-searchInput button  .MuiSvgIcon-root {
+    font-size: 1rem;
+}
+
+
+.dmWidget-messageList {
+    background-color: #903;
+    height: 69vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+

@@ -46,7 +46,7 @@
 .jobCard-info > button:hover,
 .jobCard-info > button:active,
 .jobCard-info > button:focus {
-    border-bottom:1px solid #307ceb 
+    border-bottom:1px solid #307ceb;
 }
 
 .jobCard-info > button {

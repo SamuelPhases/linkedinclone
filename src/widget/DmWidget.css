@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  0.5em 1em;
+    padding:  0.5em;
     gap: 1em;
     border-bottom: 1px solid #ccc;
 }
@@ -65,7 +65,7 @@
 
 .dmWidget-search {
     /* background-color: #829eee; */
-    padding: 0.5em 1em;
+    padding: 0.5em;
 }
 
 .dmWidget-searchInput {
@@ -139,11 +139,13 @@
 
 
 .dmWidget-messageList {
-    background-color: #903;
+    background-color: #fff;
     height: 69vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    /* gap: 0.5em; */
+    max-width: 320px;
 }
+
 

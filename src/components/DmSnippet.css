@@ -1,9 +1,188 @@
 .dmSnippet {
-    background-color: #0dd;
+    /* background-color: #fff; */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding-left: 0.5em;
+    border: none;
+    /* background-color: transparent; */
+    /* border-bottom: 1px solid #ccc; */
+    border-left: 5px solid transparent;
 }
+
+.dmSnippet:last-child .dmSnippet-content  {
+    /* background-color: #029187; */
+    border: none;
+}
+
 
 .dmSnippet-container {
-    background-color: #9aa000;
+    /* padding: 0em 0.5em; */
+    /* background-color: #9aa000; */
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
 
-/* M */
+.dmSnippet-dp {
+    /* background-color: #927eee; */
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.dmSnippet:hover {
+    background-color: #ebebeb;
+}
+
+.dmSnippet:hover,
+.dmSnippet:active,
+.dmSnippet:focus {
+    background-color: #eef3f8;
+    border-left-color: #057642;
+}
+
+.dmSnippet-dp:hover .dmSnippet-dpImg {
+    opacity: 0;
+}
+
+
+.dmSnippet-dp:hover .dmSnippet-dpIcon {
+    opacity: 1;
+}
+
+.dmSnippet-dpImg {
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+    background-color: #029;
+    transition: all 0.2s ease;
+}
+
+.dmSnippet-dpIcon {
+    cursor: pointer;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.dmSnippet-dpIcon .MuiSvgIcon-root:hover {
+    color: #ccc;
+}
+
+.dmSnippet-dpIcon .MuiSvgIcon-root {
+    transition: all 0.2s ease;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #606060;
+}
+
+
+
+.dmSnippet-dpIcon  input {
+    font-size: 2rem;
+    /* opacity: 0; */
+    background-color: #028;
+    cursor: pointer;
+}
+
+.dmSnippet-content {
+    /* background-color: #92ffff; */
+    border-bottom: 1px solid #ccc;
+    flex: 1;
+    padding-bottom: 0.3em;
+}
+
+.dmSnippet-content__header {
+    /* background-color: #81e000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+    /* padding: 2em 0em; */
+    position: relative;
+}
+
+.dmSnippet:hover  .dmSnippet-content__header > div {
+    /* display: flex; */
+    visibility: visible;
+    opacity: 1;
+}
+
+.dmSnippet:hover  .dmSnippet-content__header > h5:last-of-type {
+    display: none;
+    opacity: 0;
+}
+
+
+.dmSnippet-content__header  >  div > div:hover {
+    background-color: #ccc;
+}
+
+.dmSnippet-content__header  >  div > div > .MuiSvgIcon-root {
+    /* font-size: 1.2rem; */
+    color: #606060;
+}
+
+
+.dmSnippet-content__header  >  div > div {
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.dmSnippet-content__header  >  div {
+    display: flex;
+    padding-right: 0.5em;
+    align-items: center;
+    gap: 0.4em;
+    opacity: 0;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.dmSnippet-content__header h5 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.dmSnippet-content__header h5:last-of-type {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 5%;
+    /* display: none;
+    opacity: 0; */
+}
+
+.dmSnippet-content__body {
+    padding: 0.4em  0em;
+}
+
+.dmSnippet-content__body p {
+    font-size: 0.9rem;
+    color: #606060;
+    /* padding-bottom: 0.5em; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* height: fit-content; */
+    overflow: hidden;
+}

@@ -20,6 +20,7 @@ function DmSnippet() {
                 <div className='dmSnippet-dpImg'></div>
                 <div className='dmSnippet-dpIcon'>
                     <CheckBoxOutlineBlankRoundedIcon/>
+                    {/* <input type='checkbox'/> */}
                     {/* <CheckBoxRoundedIcon/> */}
                 </div>
             </div>
@@ -37,7 +38,7 @@ function DmSnippet() {
                     </div>
                 </div>
                 <div className='dmSnippet-content__body'>
-                    <p>{!user ? user : 'You'  }: Good to hear, thanks. God bless you.</p>
+                    <p>{!user ? user : 'You'  }: Good to hear, thanks.Good to hear, thanks. Good to hear, thanks.Good to hear, thanks. Good to hear, thanks.Good to hear, thanks. God bless you.</p>
                 </div>
             </div>
         </div>
